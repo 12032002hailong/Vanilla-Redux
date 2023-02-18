@@ -6,6 +6,7 @@ export const increaseCounter = () => {
     return {
 
         type: INCREMENT,
+        payload: { like: 'Buy milk', name: 'Hai Long' }
 
     };
 
